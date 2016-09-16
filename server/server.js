@@ -33,6 +33,13 @@ import posts from './routes/post.routes';
 import dummyData from './dummyData';
 import serverConfig from './config';
 
+const db = mongoose.connection;
+
+ db.on('error', console.error);
+ db.once('open', function (res) {
+     dummyData();  //put this here instead of inside mongoose.connect
+ });
+
 // MongoDB Connection
 mongoose.connect(serverConfig.mongoURL, (error) => {
   if (error) {
@@ -41,7 +48,7 @@ mongoose.connect(serverConfig.mongoURL, (error) => {
   }
 
   // feed some dummy data in DB.
-  dummyData();
+  //dummyData();
 });
 
 // Apply body Parser and server public assets and routes
