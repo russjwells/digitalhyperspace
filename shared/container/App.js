@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div>
         <Helmet
-          title="MERN Starter - Blog App"
+          title="Digital Hyperspace"
           titleTemplate="%s - Blog App"
           meta={[
             { charset: 'utf-8' },

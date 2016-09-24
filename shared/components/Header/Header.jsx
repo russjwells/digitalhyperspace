@@ -13,6 +13,9 @@ function Header(props, context) {
             ? <a className="add-post-button" href="#" onClick={props.onClick}>Add Post</a>
             : null
         }
+        <Link to="/projects">Projects</Link>
+        <Link to="/team">Team</Link>
+        <Link to="/mission">Mission</Link>
       </div>
     </div>
   );
