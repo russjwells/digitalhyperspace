@@ -12,7 +12,7 @@ class App extends Component {
       <div>
         <Helmet
           title="Digital Hyperspace"
-          titleTemplate="%s - Blog App"
+          titleTemplate="%s - Visionary Design and Technology"
           meta={[
             { charset: 'utf-8' },
             {

@@ -15,7 +15,7 @@ function Header(props, context) {
         }
         <Link to="/projects">Projects</Link>
         <Link to="/team">Team</Link>
-        <Link to="/mission">Mission</Link>
+        <Link to="/about">Mission</Link>
       </div>
     </div>
   );
