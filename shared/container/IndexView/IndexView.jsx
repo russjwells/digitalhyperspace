@@ -1,8 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router';
+
 
 function IndexView(props, context){
 	return (
-		<div>Index</div>
+		<div>
+		IndexView
+        </div>
 	);
 }
 

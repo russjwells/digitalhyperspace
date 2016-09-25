@@ -11,7 +11,6 @@ import AboutView from './container/AboutView/AboutView';
 const routes = (
   <Route path="/" component={App} >
     <IndexRoute component={IndexView} />
-    <Route path="/post/:slug" component={PostDetailView}/>
     <Route path="/projects" component={ProjectsView}/>
     <Route path="/team" component={TeamView}/>
     <Route path="/about" component={AboutView}/>

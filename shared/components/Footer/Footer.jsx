@@ -1,8 +1,6 @@
 import React from 'react';
 
 function Footer() {
-
-
   return (
    <div className="footer">
      <p>&copy; 2016 &middot; Digital Hyperspace &middot;</p>

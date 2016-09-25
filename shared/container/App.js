@@ -1,6 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 
 class App extends Component {
   constructor(props, context) {
@@ -25,8 +27,9 @@ class App extends Component {
             },
           ]}
         />
-
+        <Header />
         { this.props.children }
+        <Footer />
       </div>
     );
   }
