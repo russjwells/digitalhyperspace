@@ -28,6 +28,7 @@ class App extends Component {
           ]}
         />
         <Header />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
         { this.props.children }
         <Footer />
       </div>

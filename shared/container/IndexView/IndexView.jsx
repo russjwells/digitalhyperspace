@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { Component} from 'react';
 import { Link } from 'react-router';
 
 
-function IndexView(props, context){
+class IndexView extends Component {
+	constructor(props, context) {
+		super(props, context);
+	}
+	render(){
 	return (
-		<div>
-		IndexView
+		<div className="screen">
+			Welcome to digitalhyperspace.com
         </div>
 	);
+	}
 }
 
 export default IndexView;
