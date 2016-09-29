@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ChaparralPro-LightIt';
+  src: url('ChaparralPro-LightIt.eot');
+  src: url('ChaparralPro-LightIt.woff2') format('woff2'),
+       url('ChaparralPro-LightIt.woff') format('woff'),
+       url('ChaparralPro-LightIt.ttf') format('truetype'),
+       url('ChaparralPro-LightIt.svg#ChaparralPro-LightIt') format('svg'),
+       url('ChaparralPro-LightIt.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

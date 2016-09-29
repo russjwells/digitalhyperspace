@@ -170,16 +170,36 @@ body {
 	overflow: auto;
 }
 
+.navigation {
+	font: 18pt 'BaronNeue';
+	float: right;
+}
+.navigation a{
+	text-decoration: none;
+	color: #FFF;
+	margin: 30 30 30 30;
+	float: right;
+}
+
 .site-title {
 	float: left;
-	font: 42pt 'BaronNeue';
+	font: 36pt 'BaronNeue';
 }
 
 .site-title a{
 	text-decoration: none;
 	color: #FFF;
 }
-
+.site-subtitle{
+	font: 18pt 'ChaparralPro-LightIt';
+}
+.pagebody{
+	width: 100%
+	background-color: #000;
+	color: #FFF;
+	height: 100%;
+	float: left;
+}
 .add-post-button {
 	display: inline-block;
     color: #FFF;

@@ -8,9 +8,14 @@ function Header(props, context) {
         <h1 className="site-title">
           <Link to="/" onClick={props.handleLogoClick}>Digital Hyperspace</Link>
         </h1>
-        <Link to="/projects">Projects</Link>
-        <Link to="/team">Team</Link>
-        <Link to="/about">About</Link>
+        <h2 className="site-subtitle">
+        Visionary Design & Technology
+        </h2>
+        <nav className="navigation">
+          <Link to="/projects" >Projects</Link>
+          <Link to="/team">Team</Link>
+          <Link to="/about">About</Link>
+        </nav>
       </div>
     </div>
   );

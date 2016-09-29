@@ -8,8 +8,16 @@ class IndexView extends Component {
 	}
 	render(){
 	return (
-		<div className="screen">
-			Welcome to digitalhyperspace.com
+		<div className="pagebody">
+			<div className="screen" id="intro">
+				Welcome to digitalhyperspace.com
+	        </div>
+	        <div className="screen" id="services">
+				Welcome to digitalhyperspace.com
+	        </div>
+	        <div className="screen" id="contact">
+				Welcome to digitalhyperspace.com
+	        </div>
         </div>
 	);
 	}
