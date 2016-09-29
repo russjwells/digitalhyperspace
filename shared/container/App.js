@@ -11,7 +11,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <Helmet
           title="Digital Hyperspace"
           titleTemplate="%s - Visionary Design and Technology"
@@ -28,7 +28,6 @@ class App extends Component {
           ]}
         />
         <Header />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
         { this.props.children }
         <Footer />
       </div>

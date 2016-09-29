@@ -5,16 +5,26 @@ function Header(props, context) {
   return (
     <div className="header">
       <div className="header-content">
-        <h1 className="site-title">
-          <Link to="/" onClick={props.handleLogoClick}>Digital Hyperspace</Link>
-        </h1>
-        <h2 className="site-subtitle">
-        Visionary Design & Technology
-        </h2>
+        <div name="sitemark">
+          <h1 className="site-title">
+            <Link to="/" onClick={props.handleLogoClick}>DIGITAL HYPERSPACE</Link>
+          </h1>
+          <h2 className="site-subtitle">
+          Visionary Design & Technology
+          </h2>
+        </div>
+        <div className="headerbuffer">
+        </div>
         <nav className="navigation">
-          <Link to="/projects" >Projects</Link>
-          <Link to="/team">Team</Link>
-          <Link to="/about">About</Link>
+          <div className="navLink">
+            <Link to="/projects" >Projects</Link>
+          </div>
+          <div className="navLink">
+            <Link to="/team">Team</Link>
+          </div>
+          <div className="navLink">
+            <Link to="/about">About</Link>
+          </div>
         </nav>
       </div>
     </div>
