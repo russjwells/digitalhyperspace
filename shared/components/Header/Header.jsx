@@ -17,13 +17,13 @@ function Header(props, context) {
         </div>
         <nav className="navigation">
           <div className="navLink">
-            <Link to="/projects" >Projects</Link>
+            <Link to="/projects" >PROJECTS</Link>
           </div>
           <div className="navLink">
-            <Link to="/team">Team</Link>
+            <Link to="/team">TEAM</Link>
           </div>
           <div className="navLink">
-            <Link to="/about">About</Link>
+            <Link to="/about">ABOUT</Link>
           </div>
         </nav>
       </div>

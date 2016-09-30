@@ -2,7 +2,11 @@ import React from 'react';
 
 function AboutView(props, context){
 	return (
-		<div>About</div>
+		<div className="content">
+			<div className="screen">
+				About
+			</div>
+		</div>
 	);
 }
 

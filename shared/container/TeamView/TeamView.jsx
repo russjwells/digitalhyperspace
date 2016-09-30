@@ -2,7 +2,11 @@ import React from 'react';
 
 function TeamView(props, context){
 	return (
-		<div>Team</div>
+		<div className="content">
+			<div className="screen">
+				Team
+			</div>
+		</div>
 	);
 }
 

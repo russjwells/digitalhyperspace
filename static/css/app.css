@@ -23,7 +23,10 @@ input:-moz-placeholder {
 	color:#aaa;
 	font-weight: 300;
 }
-
+#root{
+	display: flex;
+	flex-direction: column;
+}
 body {
 	background: #333;
 	font-size: 16px;
@@ -38,14 +41,15 @@ body {
 .container {
 	display: flex;
 	flex-flow: column nowrap;
+	height: 100%;
 }
 
 .header {
-	background-color: #000;
+	background-color: #141414;
 	background-position: center;
 	background-size: cover;
-	border-bottom: 5px solid #ccc;
 	flex: 0;
+	padding-left: 30px;
 
 }
 
@@ -53,18 +57,19 @@ body {
 	display: flex;
 	width: 100%;
 	margin-top: 15px;
+	margin-bottom: 15px;
 	justify-content: space-between;
 }
 
 .navigation {
-	font: 18pt 'BaronNeue';
+	font: 16pt 'BaronNeue';
 	display: flex;
 	justify-content: space-around;
 	flex-grow: 1;
 }
 .navigation a{
 	text-decoration: none;
-	color: #FFF;
+	color: #616161;
 }
 .navigation a:hover{
 	text-decoration: underline;
@@ -72,38 +77,53 @@ body {
 }
 .sitemark{
 	flex-grow: 1;
+	margin-left: 30px;
 }
 .headerbuffer{
 	flex-grow: 2;
 }
 
 .site-title {
-	font: 36pt 'BaronNeue';
+	font: 24pt 'BaronNeue';
 }
-
+h3{
+	font: 16pt 'BaronNeue';
+}
+p{
+	font: 14pt 'ChaparralPro-Regular';
+}
+#intro{
+	height: 500px;
+}
+#contact{
+	height: 700px;
+}
 .site-title a{
 	text-decoration: none;
 	color: #FFF;
 }
 .site-subtitle{
-	font: 18pt 'ChaparralPro-LightIt';
+	font: 14pt 'ChaparralPro-LightIt';
 	color: #FFF;
 }
 .content{
 	display: flex;
 	flex-flow: column nowrap;
-	background-color: #000;
-	color: #FFF;
+	background-color: #fff;
+	color: #000;
 	flex-grow: 1;
 }
 .screen {
 	flex-grow: 1;
+	min-height: 100%;
+	padding: 30px;
+	background-color: #E2DED5;
 }
 
 .footer{
 	text-align: center;
 	padding: 56px 0;
-	background-color: #000;
+	background-color: #141414;
 	background-position: center;
 	background-size: cover;
 	flex: 0;

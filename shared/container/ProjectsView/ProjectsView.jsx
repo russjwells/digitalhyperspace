@@ -2,7 +2,11 @@ import React from 'react';
 
 function ProjectsView(props, context){
 	return (
-		<div>Projects</div>
+		<div className="content">
+			<div className="screen">
+				Projects
+			</div>
+		</div>
 	);
 }
 
