@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 import { Link } from 'react-router';
-
+import IntroCarosel from '../IntroCarosel/IntroCarosel';
 
 class IndexView extends Component {
 	constructor(props, context) {
@@ -10,7 +10,7 @@ class IndexView extends Component {
 	return (
 		<div className="content">
 			<div className="screen" id="intro">
-				intro carosel
+				<IntroCarosel />
 	        </div>
 	        <div className="screen" id="services">
 				<h3>Experimental Technology</h3>

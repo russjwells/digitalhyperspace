@@ -65,6 +65,7 @@ body {
 	font: 16pt 'BaronNeue';
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	flex-grow: 1;
 }
 .navigation a{
@@ -103,7 +104,7 @@ p{
 	color: #FFF;
 }
 .site-subtitle{
-	font: 14pt 'ChaparralPro-LightIt';
+	font: 12pt 'ChaparralPro-LightIt';
 	color: #FFF;
 }
 .content{
@@ -114,10 +115,13 @@ p{
 	flex-grow: 1;
 }
 .screen {
+	display: flex;
 	flex-grow: 1;
 	min-height: 100%;
 	padding: 30px;
 	background-color: #E2DED5;
+	min-height: 0px;
+	min-width: 0px;
 }
 
 .footer{
@@ -146,4 +150,9 @@ p{
 		float: left;
 		margin-top: 16px;
 	}
+}
+
+* {
+  min-height: 0;
+  min-width: 0;
 }
