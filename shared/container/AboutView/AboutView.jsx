@@ -4,7 +4,8 @@ function AboutView(props, context){
 	return (
 		<div className="content">
 			<div className="screen">
-				About
+				<h3>Manifest</h3>
+				<p>about Digital Hyperspace and what we do</p>
 			</div>
 		</div>
 	);
