@@ -56,8 +56,8 @@ body {
 .header .header-content {
 	display: flex;
 	width: 100%;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	justify-content: space-between;
 }
 
@@ -117,13 +117,17 @@ p{
 .screen {
 	display: flex;
 	flex-grow: 1;
-	min-height: 100%;
+	min-height: 600px;
 	padding: 30px;
-	background-color: #E2DED5;
-	min-height: 0px;
-	min-width: 0px;
+	background-color: #000;
+	justify-content: space-around;
+	color: #fff;
 }
+.serviceDesc{
+	color: #fff;
+	max-width: 330px;
 
+}
 .footer{
 	text-align: center;
 	padding: 56px 0;
@@ -132,26 +136,25 @@ p{
 	background-size: cover;
 	flex: 0;
 }
-
 .footer p{
 	margin: 0 0 8px 0;
 	font-size: 14px;
 	color: #FFF;
 }
-
 .footer a{
 	color: #FFF;
 	text-decoration: none;
 	font-weight: 700;
 }
-
+.footer img{
+	margin: 20px;
+}
 @media (max-width: 767px){
 	.add-post-button{
 		float: left;
 		margin-top: 16px;
 	}
 }
-
 * {
   min-height: 0;
   min-width: 0;
