@@ -6,7 +6,7 @@ function TeamView(props, context){
 			<div className="screen" id="team">
 				<div className="teamMember">
 					<div className="memberPic">
-
+						<img src="img/russface_circle.png" />
 					</div>
 					<div className="memberData">
 						<div>
