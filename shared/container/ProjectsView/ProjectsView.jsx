@@ -3,15 +3,19 @@ import React from 'react';
 function ProjectsView(props, context){
 	return (
 		<div className="content">
-			<div className="screen">
+			<div className="screen" id="Sitting">
 				<h3>Sitting</h3>
 				<p>a distraction free meditation timer.</p>
 			</div>
-			<div className="screen">
-				<h3>Reddit Clone</h3>
+			<div className="screen" id="miniReddit">
+				<h3>Mini Reddit</h3>
 				<p>an angular demo.</p>
 			</div>
-			<div className="screen">
+			<div className="screen" id="miniTwitter">
+				<h3>Mini Twitter</h3>
+				<p>an angular demo.</p>
+			</div>
+			<div className="screen" id="Notetaker">
 				<h3>Github Notetaker</h3>
 				<p>a react demo.</p>
 			</div>
@@ -21,7 +25,7 @@ function ProjectsView(props, context){
 			</div>
 			<div className="screen">
 				<h3>Unity3D Networked FPS Roguelike</h3>
-				<p>a mystical multiplayer adventure</p>
+				<p>a mystical multiplayer adventure!</p>
 			</div>
 		</div>
 	);

@@ -28,6 +28,12 @@ class IndexView extends Component {
 	        </div>
 	        <div className="screen" id="contact">
 				contact form
+				<form>
+					<input />
+					<input />
+					<textbox />
+					<submit />
+				</form>
 	        </div>
         </div>
 	);

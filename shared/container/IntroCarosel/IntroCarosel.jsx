@@ -11,11 +11,13 @@ class IntroCarosel extends Component {
 		    infinite: true,
 		    speed: 500,
 		    slidesToShow: 1,
-		    slidesToScroll: 4
+		    slidesToScroll: 4,
+		    adaptiveHeight: true,
+
 		};
 		return (
 			<Slider {...settings}>
-			  <div>1</div>
+			  <div><h3>1</h3></div>
 	          <div>2</div>
 	          <div>3</div>
 	          <div>4</div>

@@ -13,7 +13,7 @@ function TeamView(props, context){
 							<h3>Russell Wells</h3>
 						</div>
 						<div>
-							<p>links and description</p>
+							<p>Hello, I'm the founder of Digital Hyperspace.</p>
 						</div>
 					</div>
 				</div>
