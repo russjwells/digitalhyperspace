@@ -30,6 +30,9 @@ input:-moz-placeholder {
 #intro{
 	display: block;
 }
+#services{
+	flex-direction: row;
+}
 body {
 	background: #333;
 	font-size: 16px;
@@ -125,6 +128,7 @@ p{
 	background-color: #000;
 	justify-content: space-around;
 	color: #fff;
+	flex-direction: column;
 }
 .serviceDesc{
 	color: #fff;
